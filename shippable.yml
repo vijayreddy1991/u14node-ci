@@ -15,7 +15,7 @@ node_js:
 
 build:
   pre_ci_boot:
-    image_name: drydock/u14pytall
+    image_name: drydock/u14nodall
     image_tag: master
     pull: true
   ci:
