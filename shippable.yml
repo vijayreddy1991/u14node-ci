@@ -5,7 +5,8 @@ node_js:
 
   - 6.14 #.0 
   - 8.12 #.0 
-  - 10.12.0 #.0
+  - 10.12.0 
+  - 11.1.0
 
 build:
   pre_ci_boot:
@@ -20,7 +21,7 @@ build:
     - casperjs --version
     - bower --version
     - phantomjs --version
-    - java -jar /srv/selenium-server-standalone-3.14.0.jar --version
+    - java -jar /srv/selenium-server-standalone-3.141.5.jar --version
     - nvm list
     - npm --version
     - java -version
